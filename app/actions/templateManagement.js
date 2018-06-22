@@ -3,7 +3,7 @@
  */
 
 import * as types from './types';
-import { push } from 'connected-react-router';
+import { push } from 'react-router-redux';
 import {addTemplate, editTemplate, removeTemplate, addPage, removePage} from '../actions/templates';
 import Internal from '../utils/Internal';
 

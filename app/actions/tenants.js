@@ -9,6 +9,7 @@ import {setEditMode} from './config';
 import {clearContext} from './context';
 import {reloadUserAppData} from './userApp';
 import {loadTours} from './tours';
+import { push } from 'react-router-redux';
 
 function requestTenants() {
     return {

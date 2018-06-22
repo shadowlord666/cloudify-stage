@@ -3,7 +3,7 @@
  */
 
 import * as types from './types';
-import { push } from 'connected-react-router';
+import { push } from 'react-router-redux';
 import {v4} from 'node-uuid';
 import {stringify} from 'query-string';
 import {clearContext} from './context';
